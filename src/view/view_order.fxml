@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.viewFormControll">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="482.0" prefWidth="668.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#99b79924" height="443.0" layoutX="253.0" layoutY="80.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="416.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#daffa9e3" height="68.0" layoutX="-12.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="680.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0a4b0ebd" height="145.0" layoutX="-10.0" layoutY="378.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="131.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#35bc3cbd" height="134.0" layoutX="23.0" layoutY="319.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="142.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#20e72abd" height="121.0" layoutX="70.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="131.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a5ff0080" height="127.0" layoutX="107.0" layoutY="175.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="131.0" />
+            <Label layoutX="231.0" layoutY="26.0" text="View Item Form" textFill="#147b13">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <TableView fx:id="tblView" layoutX="273.0" layoutY="134.0" prefHeight="286.0" prefWidth="378.0">
+              <columns>
+                <TableColumn fx:id="colID" prefWidth="56.0" text="ID" />
+                <TableColumn fx:id="colName" prefWidth="77.60003662109375" text="Name" />
+                  <TableColumn fx:id="colQty" prefWidth="55.99993896484375" text="Qty" />
+                  <TableColumn fx:id="colPrice" prefWidth="84.79995727539062" text="Price" />
+                  <TableColumn fx:id="colDiscription" prefWidth="103.2000732421875" text="Discription" />
+              </columns>
+            </TableView>
+            <Button layoutX="414.0" layoutY="440.0" mnemonicParsing="false" onAction="#btnRealodOnAction" prefHeight="26.0" prefWidth="92.0" style="-fx-background-color: #694c78;" text="Reload" textFill="#fff8f8">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

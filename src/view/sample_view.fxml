@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="482.0" prefWidth="668.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.sampleFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b4bbc278" height="441.0" layoutX="375.0" layoutY="81.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="293.0" />
+      <Button fx:id="btnCansel" layoutX="435.0" layoutY="344.0" mnemonicParsing="false" onAction="#btnCanselOnAction" prefHeight="43.0" prefWidth="172.0" style="-fx-background-color: #a5ff00;" text="Cansel">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="435.0" layoutY="202.0" mnemonicParsing="false" onAction="#btnViewItemOnAction" prefHeight="43.0" prefWidth="172.0" style="-fx-background-color: #20e72a;" text="View Item">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#daffa9e3" height="68.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="668.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0a4b0ebd" height="200.0" layoutY="323.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#35bc3cbd" height="200.0" layoutX="35.0" layoutY="253.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#20e72abd" height="200.0" layoutX="81.0" layoutY="161.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a5ff0080" height="200.0" layoutX="132.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Button layoutX="435.0" layoutY="134.0" mnemonicParsing="false" onAction="#btnAddItemOnAction" prefHeight="50.0" prefWidth="172.0" style="-fx-background-color: #337a15;" text="Add Item" textFill="#161716">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="436.0" layoutY="270.0" mnemonicParsing="false" onAction="#btnDeleteItemOnAction" prefHeight="43.0" prefWidth="172.0" style="-fx-background-color: #20e72a;" text="Delete Item">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+
+   </children>
+</AnchorPane>

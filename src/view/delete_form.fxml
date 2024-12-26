@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.deleteFormController">
+   <children>
+      <AnchorPane layoutX="20.0" layoutY="20.0" prefHeight="482.0" prefWidth="668.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#99b79924" height="443.0" layoutX="338.0" layoutY="63.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="332.0" />
+            <Label layoutX="354.0" layoutY="104.0" text="Item ID" textFill="#3fb753">
+               <font>
+                  <Font name="Serif Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="354.0" layoutY="150.0" text="Item Name" textFill="#3fb753">
+               <font>
+                  <Font name="Serif Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="355.0" layoutY="198.0" text="Qty" textFill="#3fb753">
+               <font>
+                  <Font name="Serif Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="355.0" layoutY="246.0" text="Price" textFill="#3fb753">
+               <font>
+                  <Font name="Serif Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="355.0" layoutY="293.0" text="Discription" textFill="#3fb753">
+               <font>
+                  <Font name="Serif Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#daffa9e3" height="68.0" layoutX="-18.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="688.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0a4b0ebd" height="200.0" layoutX="-20.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#35bc3cbd" height="200.0" layoutX="19.0" layoutY="236.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#20e72abd" height="200.0" layoutX="65.0" layoutY="144.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a5ff0080" height="200.0" layoutX="114.0" layoutY="75.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+            <Label layoutX="215.0" layoutY="9.0" text="Delete Item Form" textFill="#147b13">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtID" layoutX="465.0" layoutY="102.0" prefHeight="26.0" prefWidth="121.0" />
+            <TextField fx:id="txtName" layoutX="466.0" layoutY="145.0" />
+            <TextField fx:id="txtQty" layoutX="467.0" layoutY="196.0" prefHeight="26.0" prefWidth="86.0" />
+            <TextField fx:id="txtprice" layoutX="468.0" layoutY="243.0" prefHeight="26.0" prefWidth="140.0" />
+            <TextField fx:id="txtDiscription" layoutX="468.0" layoutY="289.0" />
+            <Button layoutX="564.0" layoutY="357.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" style="-fx-background-color: #a5ff00;" text="Cansel">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="387.0" layoutY="357.0" mnemonicParsing="false" onAction="#btnSearch" prefHeight="26.0" prefWidth="61.0" style="-fx-background-color: #68935b;" text="Search">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="478.0" layoutY="357.0" mnemonicParsing="false" onAction="#btnDelete" prefHeight="26.0" prefWidth="61.0" style="-fx-background-color: #c41e3a;" text="Delete">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
